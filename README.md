@@ -1,6 +1,8 @@
 # Copy Folder to another Repository
-This GitHub Action copies a folder from the current repository to a location in another repository.
+This GitHub Action copies a large folder from the current repository to a location in another repository.
 The action takes care to create the directory, if not yet present.
+This is identical to the parent repository, but with an increased buffer size to allow large files to be pushed. See original repo:
+https://github.com/datalbry/copy_folder_to_another_repo_action
 
 # Example Workflow
     name: Push File
